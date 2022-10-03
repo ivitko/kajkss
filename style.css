@@ -1,0 +1,46 @@
+.hero {
+    background-image: url('/images/duha.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-oblacik {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    gap: 20px;
+}
+
+.oblacik {
+    width: 200px;
+    height: fit-content;
+}
+
+.oblacik-pravo {
+    transform: scaleX(-1);
+}
+
+.hero-text {
+    color: rgb(255, 182, 36);
+    font-size: 30px;
+    -webkit-text-stroke: 2px white;
+    font-family: "Modak";
+}
+
+@media (min-width: 425px) {
+    .hero-text {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-text {
+        font-size: 70px;
+    }
+}
