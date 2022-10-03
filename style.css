@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('images/duha.svg');
+    background-image: url('./images/duha.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
